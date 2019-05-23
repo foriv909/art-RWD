@@ -1,7 +1,6 @@
 .main-master{
   background-color:#424242;
-  width:485px;
-  height:640px;
+  padding:250px;
 }
 .main-content{
   text-align:center;
@@ -17,24 +16,24 @@
   color:#ffff;
 }
 .main-describe-style{
+  font-size:12px;
+  padding:20px 0px;
   letter-spacing:2px;
   text-transform:uppercase;
   font-weight:200;
   color:#ffff;
 }
-.main-space-first{
+.btn-dark{
+  color:white;
+  font-size:13px;
+  padding:10px 20px;
+  opacity: 0.7;
+}
+.main-space-color{
   background-color:#212121;
 }
-.main-space-second{
-  background-color:#212121;
-}
-.main-space-third{
-  background-color:#212121;
-}
-.main-space-fourth{
-  background-color:#212121;
-}
-.first-picture,.second-picture,.third-picture,.fourth-picture{
+
+.picture{
   background-color:#F06292;
   height:120px;
   margin-bottom:10px;
@@ -43,26 +42,121 @@
   border-bottom:1px solid #ECEFF1;
 }
 .restname{
-  font-size:17px;
+  font-size:14px;
   color:#ffff;
   font-weight:bold;
-  letter-spacing:2px;
+  letter-spacing:1px;
+}
+.fa-star,.fa-star-half-alt{
+  font-size:10%;
 }
 .hotelname{
-  color:#BDBDBD;
+  font-size:5px;
+  color:#9E9E9E;
   letter-spacing:1px;
-  padding:15px 0px 10px 10px;
+  padding:15px 0px 10px 0px;
 }
 .evaluation{
-  display:inline-block;
+  font-size:10px;
+  position:relative;
   color:#ffff;
   padding:15px 0px 70px 0px;
 }
-.sss{
-  order:2;
+.evaluation-part-second{
+  font-size:10px;
+  position:relative;
+  color:#ffff;
+  padding:15px 0px 35px 0px;
 }
-.xxx{
-  order:1;
+
+.btn-warning{
+  padding:2px 25px;
+  font-size:3px;
+  background-color:#8D6E63;
+  color:#BCAAA4;
+  position:relative;
+  float:right;
+}
+.score{
+  letter-spacing:2px;
+  color:#8D6E63;
+}
+.score-text{
+  color:#9E9E9E;
+}
+.price-position{
+  float:right;
+}
+.price-text{
+  color:#ffff;
+  font-size:12px;
+  font-weight:400;
+}
+.price-style{
+  color:#ffff;
+  font-weight:700;
+}
+.num-size{
+  font-size:30px;
+}
+.clear{
+  clear:both;
+}
+
+.airtime-background{
+  background-color:#212121;
+  color:#9E9E9E;
+}
+.fa-plane{
+  font-size:38px;
+}
+.fa-plane-sate{
+  font-size:2px;
+}
+.air-fa-clock{
+  font-size:2px;
+  padding-right:3px;
+}
+.air-center-text{
+  padding:70px 10px;
+}
+.air-center-picture{
+  padding:30px 0px;
+}
+.airtstat{
+  font-size:15px;
+  border-bottom:0.5px solid #9E9E9E;
+}
+.airfinal{
+  font-size:15px;
+  border-bottom:0.5px solid #9E9E9E;
+}
+.air-time-position{
+  padding:25px 0px;
+}
+.airsate{
+  font-size:3px;
+  padding:10px 0px;
+}
+.air-away-time{
+  font-size:15px;
+  padding:8px 0px;
+}
+.air-btn-warning{
+  padding:5px 15px;
+  font-size:3px;
+  background-color:#8D6E63;
+  color:#BCAAA4;
+  position:absolute;
+  top:50%;
+}
+@media (max-width:1221px){
+  .main-master-second{
+    order:1;
+  }
+  .main-space-second{
+    order:2;
+  }
 }
 
 
